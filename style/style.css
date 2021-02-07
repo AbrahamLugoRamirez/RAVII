@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.fondo{    
+    background: linear-gradient(to bottom right, #8AF6E6, pink);    
+    height: 100vh;
+}
+.padre{
+    height: 10%;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 700%;
+    margin-top: 40%;
+  }
+  
+  .padre {    
+    /* IMPORTANTE */
+    text-align: center;
+  }
+
