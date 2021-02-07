@@ -1,3 +1,5 @@
+
+
 var opacity = 0;
 var intervalID=0;
 function fadein(){
@@ -15,3 +17,10 @@ function show(){
     }
 }
 fadein();
+
+function reload(){   
+    location.reload();
+}
+function room(){
+    window.location = "room.html";
+}
