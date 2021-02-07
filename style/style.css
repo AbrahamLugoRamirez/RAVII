@@ -4,7 +4,7 @@
     height: 100;
 }
 .padre{
-    height: 60vh;
+    height: 100vh;
     /*IMPORTANTE*/
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 }
 
 .animation {
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slidein;
   }  
   @keyframes slidein {
@@ -50,5 +50,8 @@
   }
   .hijo{
     float: left;
+  }
+  .catalogo{
+    margin-top: 5%;
   }
  
