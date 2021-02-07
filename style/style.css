@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .fondo{    
     background: linear-gradient(to bottom right, #8AF6E6, pink);    
-    height: 100vh;
+    height: 100%;
 }
 .padre{
     height: 10%;
@@ -19,7 +19,7 @@
     from {
       margin-left: 100%;
       width: 100%
-    }  
+    } 
     to {
       margin-left: 0%;
       width: 100%;
@@ -34,5 +34,8 @@
   .padre {    
     /* IMPORTANTE */
     text-align: center;
+  }
+  .catalogo{
+      margin-top: 10%;
   }
 
