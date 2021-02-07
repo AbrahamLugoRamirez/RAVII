@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .fondo{    
     background: linear-gradient(to bottom right, #8AF6E6, pink);    
-    height: 100%;
+    height: 100;
 }
 .padre{
     height: 60vh;
@@ -20,6 +20,9 @@
   align-items: center;
   
 }
+.menu{
+  text-align: right;
+}
 
 .animation {
     animation-duration: 3s;
@@ -27,7 +30,7 @@
   }  
   @keyframes slidein {
     from {
-      margin-left: 200%;
+      margin-left: 500%;
       width: 100%
     } 
     to {
@@ -37,7 +40,7 @@
   }
   h1{
     font-family: 'Pacifico', cursive;
-    font-size: 700%;
+    font-size: 7vw;
     
   }
   
