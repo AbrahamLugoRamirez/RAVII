@@ -22,7 +22,7 @@
   
 }
 .menu{
-  text-align: right;
+  text-align: center;
 }
 
 .animation {
@@ -55,4 +55,11 @@
   .catalogo{
     margin-top: 5%;
   }
- 
+  .room{
+    margin-top: 10%;
+  }
+  
+ .wh{
+  height: 10%;
+  width: 50%;
+ }
