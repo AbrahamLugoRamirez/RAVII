@@ -19,7 +19,7 @@
 <title>RAVII</title>
 </head>
 
-<body>
+<body style="background: rgb(237, 237, 237);">
     <div id="up"><a>a</a></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
@@ -33,15 +33,15 @@
                         <a class="nav-link " aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#catalogo">Catalogo</a>
+                        <a class="nav-link " href="catalogo.html">Catalogo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Room</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
-            </a>
+                            Dropdown link
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -56,16 +56,16 @@
 
     <section class="room container">
         <div class="padres">
-            <div>
-                <h2 class="hijo">Room</h1>
+            <div style="margin-top: 5%;">
+                <h2 class="hijo">Room</h2>
             </div>
         </div>
         <div class="row align-items-start row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col menu">
                 <div class="dropdown">
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-            Profile
-          </a>
+                        Profile
+                     </a>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <li>
                             <a class="dropdown-item"><img src="https://avatars.githubusercontent.com/u/48779532?s=460&u=8b6a6beefbc3f42d83ade927e7307a8c182dd5bf&v=4" class="profile" alt="Avatar">
@@ -82,7 +82,11 @@
                 <button class="btn btn-outline-success" type="submit">Comprar tiquetes <i class="material-icons tiny">add</i>
         </button>
             </div>
-            <div class="col ">
+            <div class="col" style="text-align: right; ">
+                <a href="#" class="emoji">
+                    <i class="large material-icons emoji">blur_circular</i>
+                </a>
+
             </div>
         </div>
     </section>
@@ -91,6 +95,8 @@
             <span id="hora"></span> horas, <span id="minuto"></span> minutos, <span id="segundo"></span> segundos
         </div>
     </div>
+
+
 
     <section class="padres">
         <video class="responsive-video" controls>
@@ -218,6 +224,60 @@
             <div class="emoji">😊</div>
         </div>
     </div>
+
+
+
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <i class="large material-icons">insert_chart</i>
+                <small class="d-block mb-3 text-muted">&copy; Abraham Lugo Ramirez 2021</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Software Developers</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Cool stuff</a></li>
+                    <li><a class="link-secondary" href="#">Random feature</a></li>
+                    <li><a class="link-secondary" href="#">Team feature</a></li>
+                    <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+                    <li><a class="link-secondary" href="#">Another one</a></li>
+                    <li><a class="link-secondary" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Resource name</a></li>
+                    <li><a class="link-secondary" href="#">Resource</a></li>
+                    <li><a class="link-secondary" href="#">Another resource</a></li>
+                    <li><a class="link-secondary" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Business</a></li>
+                    <li><a class="link-secondary" href="#">Education</a></li>
+                    <li><a class="link-secondary" href="#">Government</a></li>
+                    <li><a class="link-secondary" href="#">Gaming</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Team</a></li>
+                    <li><a class="link-secondary" href="#">Locations</a></li>
+                    <li><a class="link-secondary" href="#">Privacy</a></li>
+                    <li><a class="link-secondary" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
 
     <style>
         #fecha {

@@ -39,7 +39,7 @@
 
 h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 7vw;
+    font-size: 10vw;
 }
 
 .padre {
@@ -55,7 +55,7 @@ h1 {
 }
 
 .room {
-    margin-top: 10%;
+    margin-top: 30%;
 }
 
 .wh {
@@ -106,4 +106,8 @@ h1 {
     border-radius: 50%;
     width: 20%;
     height: 20%;
+}
+
+.footer {
+    padding: 10%;
 }
